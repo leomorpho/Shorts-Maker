@@ -7,6 +7,7 @@ videos/original
 videos/other
 runtime.pk
 sources/trash
+videos/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
