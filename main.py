@@ -5,7 +5,7 @@ import verse_handler
 from Fonts import Fonts
 
 # Define paths and values
-number_of_videos = 3
+number_of_videos = -1 # Set to "-1" to generate for all
 project_dir = os.getcwd().replace("\\", "/")
 
 video_folder = f"{project_dir}/videos"

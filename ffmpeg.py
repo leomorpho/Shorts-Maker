@@ -244,7 +244,7 @@ def create_video(
     video_duration = float(video_duration.decode("utf-8").strip())
 
     # Set the start time of text
-    text_start_time = 1
+    text_start_time = 0.3
 
     text_color = (255, 255, 255, 255)
     font_color = "white"
@@ -274,7 +274,7 @@ def create_video(
     # print(f"{image_text_source_y}, {text2_y}")
 
     # fix bug that ':' and beyond wasn't showing on screen
-    text_source = text_source.replace(":", "\:").replace("'", "'")
+    text_source = text_source.replace(":", "\:").replace("'", "\'")
     output_folder = output_path
     output_path += f"/{file_name}"
 
